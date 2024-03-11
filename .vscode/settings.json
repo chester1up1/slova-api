@@ -1,0 +1,21 @@
+{
+  "editor.rulers": [
+    80
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/build": true,
+    "**/coverage": true
+  },
+  "editor.formatOnSave": true, // auto format the file on each save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css][scss][less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "js/ts.implicitProjectConfig.experimentalDecorators": true
+}
